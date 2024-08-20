@@ -124,7 +124,7 @@ let watchList = [
 ];
 
 const PracticaUno = () => {
-    const MappedMovies = watchList.map(watchList => watchList.Director === 'Christopher Nolan' && watchList.imdbRating > 8 ? watchList.Title : '')
+    const MappedMovies = watchList.filter(movie => movie.Director === 'Christopher Nolan' && movie.imdbRating > 8).map(movie => movie.Title)
     console.log(MappedMovies);
 }
 
