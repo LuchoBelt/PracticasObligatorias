@@ -1,4 +1,4 @@
-let watchList = [
+/* let watchList = [
 	{
 		Title: 'Inception',
 		Year: '2010',
@@ -128,4 +128,4 @@ const PracticaUno = () => {
     console.log(MappedMovies);
 }
 
-export default PracticaUno
+export default PracticaUno */
